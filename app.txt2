@@ -1,0 +1,12 @@
+Write a blog about objects and its internal representation in Javascript
+
+-> The object is the unordered collection KEY : value pairs.
+-> The most important data type in Javascript is objects.And it is different from
+   the primitive data types.
+-> The objects can hold different combinations of different primitive data types.
+-> The properties will be associated with objects in the Javascript.
+-> It is also called as associative arrays, because the properties is associated 
+   with the string values.
+-> The property name should be a valid javascript string, it should not has a space,
+   hypen or starting with a number.
+-> 

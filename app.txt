@@ -1,0 +1,23 @@
+Write a blog on Difference between HTTP1.1 vs HTTP2
+
+HTTP/1.1
+-> It was developed by the Berners Lee in 1989 and this version is still in use.
+-> It works on the text format, so that all the request and response are in text form.
+-> GET and POST method is used by the Client to send the request to the servers.
+-> HTTP/1.1 send the data one by one when the client makes request to the server,
+   if a single data is ot loaded then other sources will be blocked.
+-> In this, to speed up the web page, it compresses the HTTP messages into smaller
+   one and it is done by itself.
+
+HTTP/2
+-> It was primarily developed at the google and published in May 2015.
+-> It is better than HTTP/1.1 because in this prioritization is well developed.
+-> Weighed prioritization is a feature of this HTTP/2, this prioritization
+   allows the developer to decide which page should load first.
+-> When the client send the request to the server, the server will response with 
+   the number of data to the client at once, not by sending one by one. This method 
+   is known as multiplexing.
+-> And the developer will assing the data with different weighed value, so that the 
+   value tells which data should render first.
+-> HPACK an advanced compression method is used in HTTP/2 for better performance,
+   this deletes the unwanted information from HTTP header packets.
